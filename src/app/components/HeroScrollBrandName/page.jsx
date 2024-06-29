@@ -11,7 +11,7 @@ export default function HeroScrollBrandName() {
         titleComponent={
           <>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-zinc-600 animate-fadeIn">
-
+                    Brain Wilk
               </h1>
           </>
         }
