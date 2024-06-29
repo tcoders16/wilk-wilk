@@ -9,7 +9,7 @@ import { PlaceholdersAndVanishInput } from './components/ui/placeholders-and-van
 import { SparklesPreview } from './components/SparkelsPreview/page';
 import FlippingText from './components/FlippingText/page';
 import SignupForm from './components/SignupForm/page';
-import { GlobeComponent } from './components/GlobeComponent/page';
+import  GlobeComponent  from './components/GlobeComponent/page';
 import  SocialMedia  from './components/SocialMedia/page';
 import { TracingBeam } from './components/ui/TracingBeam';
 
