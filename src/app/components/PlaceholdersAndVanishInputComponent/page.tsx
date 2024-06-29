@@ -1,6 +1,6 @@
 "use client";
 
-import { PlaceholdersAndVanishInput } from "../ui/placeholders-and-vanish-input";
+import { PlaceholdersAndVanishInput } from "../ui/PlaceholdersAndVanishInput";
 
 export default function PlaceholdersAndVanishInputComponent() {
   const placeholders = [
