@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { cn } from "../utils/cn";
 import ToggleButton from "../ToggleButton/page";
 
-export function PlaceholdersAndVanishInput({
+export default function PlaceholdersAndVanishInput({
   placeholders,
   onChange,
   onSubmit,
