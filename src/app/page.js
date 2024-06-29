@@ -11,7 +11,7 @@ import FlippingText from './components/FlippingText/page';
 import SignupForm from './components/SignupForm/page';
 import  GlobeComponent  from './components/GlobeComponent/page';
 import  SocialMedia  from './components/SocialMedia/page';
-import  TracingBeam  from './components/ui/TracingBeam';
+import  {TracingBeam}  from './components/ui/TracingBeam';
 
 
 
