@@ -1,6 +1,4 @@
-
-// ThemeToggleButton.jsx
-"use client"
+"use client";
 import React, { useState, useEffect } from 'react';
 
 const ToggleButton = () => {
@@ -16,14 +14,6 @@ const ToggleButton = () => {
   };
 
   useEffect(() => {
-    // Load theme from localStorage if it exists
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setTheme(savedTheme);
-      document.documentElement.setAttribute('data-theme', savedTheme);
-      document.body.classList.toggle('dark', savedTheme === 'dark');
-    }
-
     // Simulate HelloComponent loading
     const timer = setTimeout(() => {
       setHelloComponentLoaded(true);
