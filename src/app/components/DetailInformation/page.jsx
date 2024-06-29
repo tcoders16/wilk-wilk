@@ -4,7 +4,7 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../ui/TracingBeam";
 
-const DetailInformation() {
+const DetailInformation =()=> {
   return (
       <div className="max-w-2xl mx-auto antialiased pt-4 relative overflow-auto">
         {dummyContent.map((item, index) => (
