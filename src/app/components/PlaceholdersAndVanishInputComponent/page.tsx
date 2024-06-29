@@ -2,7 +2,7 @@
 
 import { PlaceholdersAndVanishInput } from "../ui/placeholders-and-vanish-input";
 
-export function PlaceholdersAndVanishInputComponent() {
+export default function PlaceholdersAndVanishInputComponent() {
   const placeholders = [
     "What is the proper brushing technique?",
     "How often should you replace your toothbrush?",
