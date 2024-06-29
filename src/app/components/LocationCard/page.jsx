@@ -2,7 +2,7 @@
 import React from "react";
 import { PinContainer } from "../ui/pinPerspective";
 
-export function LocationCard() {
+export default function LocationCard() {
   return (
     <div className="h-[40rem] w-full flex items-center justify-center ">
       <PinContainer
