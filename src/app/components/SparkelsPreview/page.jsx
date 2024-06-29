@@ -2,7 +2,7 @@
 import React from "react";
 import { SparklesCore } from "../ui/sparkels";
 
-export function SparklesPreview() {
+export default unction SparklesPreview() {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="h-[40rem] w-[40rem] bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
